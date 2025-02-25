@@ -1,1 +1,1 @@
-# figma-udf-color-vars-export
+# figma-udf-text-styles-export
