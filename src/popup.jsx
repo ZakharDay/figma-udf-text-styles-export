@@ -3,7 +3,7 @@ import './popup/stylesheets/style.css'
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Container from './popup/components/Container.jsx'
+import Container from './popup/Container.jsx'
 
 const props = {}
 let root

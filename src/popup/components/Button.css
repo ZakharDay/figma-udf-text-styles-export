@@ -1,0 +1,25 @@
+.Button {
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+
+  &.primary {
+    /* width: max-content; */
+    width: 100%;
+    padding: 16px 36px;
+    background-color: var(--black);
+    color: var(--white);
+    line-height: 30px;
+    border-radius: 4px;
+  }
+
+  &.secondary {
+    width: max-content;
+    color: var(--black);
+    color: grey;
+  }
+}
+
+.Button:hover {
+  filter: brightness(90%);
+}

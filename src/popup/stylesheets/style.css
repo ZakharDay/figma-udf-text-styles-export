@@ -2,3 +2,5 @@
 @import 'reset.css';
 @import 'fonts.css';
 @import 'basics.css';
+
+@import '../components/Button.css';

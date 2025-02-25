@@ -14,50 +14,43 @@ body {
   color: var(--black);
   background: var(--white);
   user-select: none;
-  /* display: flex; */
-  /* margin: auto; */
-  padding: 40px;
+  padding: 0 40px;
 }
 
-/* #react-root { */
-/* display: flex; */
-/* justify-content: center; */
-/* align-items: center; */
-/* } */
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
 
-.button {
-  width: 150px;
-  height: 60px;
-  line-height: 58px;
-  margin-top: 20px;
+header {
   text-align: center;
-  color: var(--white);
-  background-color: var(--black);
-  cursor: pointer;
+
+  h1 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: bold;
+  }
+
+  p.descriptor {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: grey;
+  }
 }
 
-.backButton {
-  font-size: 12px;
-  cursor: pointer;
-}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 
-h1 {
-  font-size: 26px;
-  font-weight: bold;
-}
-
-h2 {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-p,
-.A_ToolItem {
-  margin-top: 10px;
-  font-size: 16px;
-}
-
-.A_ToolItem {
-  cursor: pointer;
+  p.centered {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
 }
