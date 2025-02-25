@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#react-page {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  color: var(--black);
+  background: var(--white);
+  user-select: none;
+  /* display: flex; */
+  /* margin: auto; */
+  padding: 40px;
+}
+
+/* #react-root { */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* } */
+
+.button {
+  width: 150px;
+  height: 60px;
+  line-height: 58px;
+  margin-top: 20px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--black);
+  cursor: pointer;
+}
+
+.backButton {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p,
+.A_ToolItem {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.A_ToolItem {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "UDF Text Styles Export",
+  "id": "0",
+  "api": "1.0.0",
+  "main": "plugin.js",
+  "ui": "popup.html",
+  "editorType": ["figma"]
+}
